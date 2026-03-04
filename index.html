@@ -1,35 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+   font-family: 'Figtree',sans-serif;
+    height:100vh;
+    margin: 0;
+    background-color: black;
+  }
+.card{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 25%;
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="C:\Users\Srimathy13\Downloads\social-links-profile-main\social-links-profile-main\style.css">
-  <title>Frontend Mentor | Social links profile</title>
+  height: 70vh;
+  box-shadow:8px 8px 0px  black ;
+ background-color:hsl(0, 0%, 12%);
+}
+.but{
+  display: block;
+}
+button{
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  font-family:sans-serif;
+  font-size: 14px;
+  font-weight: 800 ;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
 
+}
+.a{
  
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<div class="card">
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  </div>
+overflow: hidden;
+  border-radius: 50%;
+    height: 100px;
+   width: 100px;
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+}
+.a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+}
